@@ -4,17 +4,16 @@ body, html {
   padding: 0;
 }
 div {
-
 }
 section {
-
 }
 main {
   box-sizing: border-box;
 }
-
+/* ШАПКА */
 .LR-0-Header{
-  background-color: whitesmoke;
+  background-color: #f8f9fa!important;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
 }
 .sticky-header {
   position:sticky;
@@ -22,12 +21,11 @@ main {
   bottom: 0;
   min-height: 13vh;
 }
-
 .LR-1 {
   height: 100vh;
 }
 .video-bg {
-  position: fixed;
+  position: relative;
   right: 0;
   bottom: 0;
   min-width: 100%;
@@ -35,26 +33,21 @@ main {
   width: 100vh;
   height: auto;
   z-index: -9999;
-  
+  box-sizing: border-box;
 }
-.LR-1-Text {
-  
+.LR-1-Text { 
 }
-
-.LR-2 {
+.LR-2 {         
   height: 100vh;
-  background-color: darkkhaki;
-
+  background-color: whitesmoke;
 }
 .LR-3 {
   height: 100vh;
   background-color: darkmagenta;
-
 }
 .LR-4 {
   height: 100vh;
  background-color: darkgray;
-
 }
 
 
