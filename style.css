@@ -1,0 +1,60 @@
+body, html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+div {
+
+}
+section {
+
+}
+main {
+  box-sizing: border-box;
+}
+
+.LR-0-Header{
+  background-color: whitesmoke;
+}
+.sticky-header {
+  position:sticky;
+  top: 0;
+  bottom: 0;
+  min-height: 13vh;
+}
+
+.LR-1 {
+  height: 100vh;
+}
+.video-bg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -9999;
+}
+.LR-1-Text {
+  
+}
+
+.LR-2 {
+  height: 100vh;
+  background-color: darkkhaki;
+
+}
+.LR-3 {
+  height: 100vh;
+  background-color: darkmagenta;
+
+}
+.LR-4 {
+  height: 100vh;
+ background-color: darkgray;
+
+}
+
+
+
